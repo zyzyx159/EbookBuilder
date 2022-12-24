@@ -2,14 +2,9 @@ package zyz.barqu.cookbook;
 
 import java.io.File;
 import java.io.IOException;
-
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
-/**
- * Hello world!
- *
- */
 public class App {
     public static void main(String[] args) {
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
